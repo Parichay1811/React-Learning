@@ -1,0 +1,25 @@
+.searchContainer{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 100%;  */
+}
+.searchContainer input{
+    width: 80%;
+    height: 35px;
+    padding: 5px 10px;
+    /* border: none; */
+    border-radius: 10px;
+}
+
+.btn{
+    position: absolute;
+    right: 12%;
+    top: 5px;
+    font-size: large;
+    background: transparent;
+    border: none;
+    padding: 3px;
+    /* background-color: rgb(223, 151, 44); */
+}

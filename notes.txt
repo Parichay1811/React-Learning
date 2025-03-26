@@ -1,0 +1,32 @@
+BASICS:
+
+In react the data always flows from the parent to child.
+If we want to send a function to the child that is made in the parent then we have something called as props in react.
+
+Example:
+Suppose we have a project where the flow is, App --> Container --> Cards
+
+if I need a data to show in the card first it will go to the App then to the Container then to the Cards.
+
+
+Key points:
+
+1. Everything big is components
+2. components can have data and it can be stored using the useState.
+3. Data is called as State.
+4. To change anything in the component just change state and the component will get changed automatically.
+5. props are used to sending data from parent to child component.
+6. Effects run when the DOM is loaded.
+7. JSX is similler to HTML. to write js inside the jsx we use { }  breaces.
+
+
+Hooks:
+
+Hooks are nothing but the special function which allows us to use the react features. which also a feature that makes functional component to work like a class component.
+we use the 'use' keyWord to write any hooks. Example: useState, useEffect, useReducer and so many...
+
+useState:
+useState hook is a function to add state to a functional component.
+
+useEffect:
+useEffect is used to perform side effects like data fetching, subscriptions, or DOM manipulations etc.

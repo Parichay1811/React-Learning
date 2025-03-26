@@ -1,0 +1,36 @@
+.lightContainer {
+    background-color: white;
+    color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .darkContainer {
+    background-color: black;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background-color: cyan;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: larger;
+    font-weight: 800;
+    transition: 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: deepskyblue;
+  }
